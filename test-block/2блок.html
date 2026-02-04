@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Интерактивный блок</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="project">
+
+  <h2 class="title">
+    Строим на участке только проверенные объекты с постоянным доходом
+  </h2>
+
+  <div class="project-view">
+
+    <!-- ФОНЫ (ОБЯЗАТЕЛЬНО 2) -->
+    <img
+      class="bg active"
+      src="images/bg-house.jpg"
+      data-id="house"
+      alt=""
+    >
+
+    <img
+      class="bg"
+      src="images/bg-industrial.jpg"
+      data-id="industrial"
+      alt=""
+    >
+
+    <!-- КАРТОЧКА -->
+    <div class="card">
+      <img class="card-img" src="images/card-house.jpg" alt="">
+      <h3 class="card-title">Смешанный комплекс</h3>
+      <p class="card-text">
+        Жилая и коммерческая инфраструктура с устойчивым доходом
+      </p>
+    </div>
+
+  </div>
+
+  <!-- КНОПКИ -->
+  <div class="tabs">
+    <button class="tab active" data-id="house">
+      Смешанный формат
+    </button>
+
+    <button class="tab" data-id="industrial">
+      Индустриальный парк
+    </button>
+  </div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
+
